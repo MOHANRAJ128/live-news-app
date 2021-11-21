@@ -1,0 +1,10 @@
+<div class="list-group">
+  <a 
+    href="#!" 
+    class="list-group-item list-group-item-action ml-2"
+    [routerLink]="['/section',sectionName]"
+    routerLinkActive="active"
+    *ngFor="let sectionName of sectionList">{{sectionName}}
+  </a>
+</div>
+  
